@@ -10,13 +10,26 @@ header{
 .reddit-text{        
     font-weight: 700;
     height: 50px;
+    padding: 8px 8px 8px 0;
     width: 50px;    
+}
+/* @ button */
+.input-group{
+    height: 50px;
+    padding: 8px 8px 8px 0;
+    width: 50px;
+}
+/* Search Bar */
+.form-control{
+    height: 50px;
+    padding: 8px 8px 8px 0;
+    width: 800px;
 }
 .logo{
     text-decoration: none;
 }
-
-.login, .sign-up{    
+/* Login and sign up buttons */
+.btn{
     background-color: transparent;
     border-color: #0079D3;
     color: #0079D3;
@@ -36,12 +49,18 @@ header{
     opacity: 1;  
 }
 
-.sign-up{
+/* sign up button */
+.btnS{
     background-color: #0079D3;
     border-color: #0079D3;
     color: aliceblue;
 }
-
+/* Log in button */
+.btnL{
+    background-color: #ffffff;
+    border-color: #0079D3;
+    color: rgb(0, 136, 255);
+}
 .sign-up:hover{
     opacity: 0.6;
 }
