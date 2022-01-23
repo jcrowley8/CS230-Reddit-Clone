@@ -1,42 +1,46 @@
-header{
-    border-radius: 1px solid;
-}
-.reddit-icon-svg{
-    height: 50px;
-    padding: 8px 8px 8px 0;
-    width: 50px;
-}
 
-.reddit-text{        
-    font-weight: 700;
-    height: 50px;
-    padding: 8px 8px 8px 0;
-    width: 50px;    
-}
-/* @ button */
-.input-group{
-    height: 50px;
-    padding: 8px 8px 8px 0;
-    width: 50px;
-}
 /* Search Bar */
 .form-control{
-    height: 50px;
+    height: 40px;
     padding: 8px 8px 8px 0;
-    width: 800px;
+    width: 600px;
+    position:relative;
+    padding-left: 35px;
+    opacity: 0.5;
+    background-color: rgb(233, 233, 233);
+    
 }
-.logo{
-    text-decoration: none;
+/* reddit word next to logo */
+.reddit-text{
+    height: 40px;
+    padding: 8px 8px 8px 0;
+    width: 90px;
+    position:relative;
+    left: -10px;
 }
-/* Login and sign up buttons */
+/* reddit logo top left */
+.reddit-logo{
+    height: 40px;
+    width: 60px;
+    position:relative;
+    margin-left: 10px;
+    left: -20px;
+}
+.search-bar-icon{
+    height: 20px;
+    width: 40px;
+    position:relative;
+    margin-top: 10px;
+    margin-left: 5px;
+    opacity: 1;
+    transform: translateX(50px);
+}
+  
+/* user icon */
 .btn{
     background-color: transparent;
-    border-color: #0079D3;
     color: #0079D3;
     fill: #0079D3;
-    border: 1px solid;
-    border-radius: 4px;
-    box-sizing: border-box;
     text-align: center;
     letter-spacing: 1px;
     text-decoration: none;
@@ -46,32 +50,45 @@ header{
     line-height: 24px;
     text-transform: uppercase;
     padding: 3px 16px;
-    opacity: 1;  
+    opacity: 1; 
 }
 
 /* sign up button */
 .btnS{
+font-size: 20px;
+  color: rgba(108, 88, 179, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(108, 89, 179, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
     background-color: #0079D3;
     border-color: #0079D3;
     color: aliceblue;
+    padding-inline: 15px;
 }
 /* Log in button */
 .btnL{
+    font-size: 20px;
+  color: rgba(108, 88, 179, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(108, 89, 179, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
     background-color: #ffffff;
     border-color: #0079D3;
-    color: rgb(0, 136, 255);
-}
-.sign-up:hover{
-    opacity: 0.6;
+    color: rgb(0, 136, 255)
+    
 }
 
-.userdetails{    
+.dropdown{
     background-color: transparent;
-    border-color: #0079D3;
+    border-color: #ffffff;
     color: #0079D3;
     fill: #0079D3;
-    border: 1px solid;
-    border-radius: 4px;
     box-sizing: border-box;
     text-align: center;
     letter-spacing: 1px;
@@ -82,35 +99,42 @@ header{
     line-height: 24px;
     text-transform: uppercase;
     padding: 3px 16px;
-    opacity: 1;
-    border: 0px;
+    opacity: 1; 
+    left: 70px;
+}
+.viewOptions{
+    font-size: 8px;
+}
+.darkMode{
+    font-size: 12px;
+}
+.moreStuff{
+    font-size: 8px;
+}
+.coins{
+    font-size: 12px;
 }
 
-.userdetails:hover{
-    border: 1px solid;
+.Premium{
+    font-size: 12px;
 }
 
-.dropdown-item{
-    background-color: #f8f9fa;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    display: inline-block;
-    vertical-align: middle;
+.powerUps{
+    font-size: 12px;
 }
 
-.dropdown-item:hover{
-    background-color: #0079D3;
+.Talk{
+    font-size: 12px;
 }
 
-.dropdown-menu{
-    background-color: #f8f9fa;
+.Predictions{
+    font-size: 12px;
 }
-
-.account-icon{
-    border-radius: 4px;
-    float: left;
-    margin-right: 5px;
-    max-height: 24px;
-    max-width: 24px;
+.helpCenter{
+    font-size: 12px;
+}
+.ZeroCoins{
+    font-size: 8px;
+    padding-inline: 15px;
+    
 }
