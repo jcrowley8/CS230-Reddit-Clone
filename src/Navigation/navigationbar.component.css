@@ -106,40 +106,66 @@ font-size: 12px;
 }
 .viewOptions{
     font-size: 8px;
+    opacity: .75; 
 }
 .darkMode{
     font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
 .moreStuff{
     font-size: 8px;
+    opacity: .75; 
 }
 .coins{
     font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
 
 .Premium{
     font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
 
 .powerUps{
     font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
 
 .Talk{
     font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
 
 .Predictions{
     font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
 .helpCenter{
     font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
 .ZeroCoins{
     font-size: 8px;
     padding-inline: 15px;
+    font: normal xx-small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
+    opacity: .75; 
     
 }
 .bi-moon-fill{
-    padding-inline: 3px;
+    padding-inline: 0px;
+
+}
+
+.logInSignUp{
+    font-size: 12px;
+    font: normal small verdana, arial, helvetica, sans-serif;
+    text-transform: none;
 }
