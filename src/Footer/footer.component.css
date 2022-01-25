@@ -1,63 +1,98 @@
 .reddit-help{
     font-size: 12px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
+    margin-left: -210px;
+    margin-top: -90px;
+    
 }
 .reddit-coins{
     font-size: 12px;
+    margin-left: -210px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-premium{
     font-size: 12px;
+    margin-left: -210px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-gifts{
     font-size: 12px;
+    margin-left: -210px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-communities{
     font-size: 12px;
+    margin-left: -210px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-rereddit{
     font-size: 12px;
+    margin-left: -210px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-topics{
     font-size: 12px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
+    margin-left: -210px;
 }
 
 
 .reddit-about{
     font-size: 12px;
-    margin-left: -200px;
+    margin-top: -240px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-careers{
     font-size: 12px;
-    margin-left: -200px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-press{
     font-size: 12px;
-    margin-left: -200px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-advertise{
     font-size: 12px;
-    margin-left: -200px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-blog{
     font-size: 12px;
-    margin-left: -200px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-terms{
     font-size: 12px;
-    margin-left: -200px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-content{
     font-size: 12px;
-    margin-left: -200px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 .reddit-privacy{
     font-size: 12px;
-    margin-left: -200px;}
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
+}
 .reddit-mod{
     font-size: 12px;
-    margin-left: -200px;
+    margin-left: -50px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
 }
 
 .reddit-rights{
     font-size: 12px;
     width: 100px;
+    font: normal x-small verdana, arial, helvetica, sans-serif;
+    margin-left: -225px;
+}
+.card{
+    width: 310px;
+    height: 262px;
+    margin-left: 820px;
+    margin-top: -25px;
 }

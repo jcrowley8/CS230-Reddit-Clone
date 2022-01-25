@@ -65,7 +65,7 @@
 font-size: 12px;
 font-weight: 700;
 position:relative;
-    left: 155px;
+    left: 130px;
   color: rgba(108, 88, 179, 0.75);
   letter-spacing: 1px;
   line-height: 0px;
@@ -76,7 +76,7 @@ position:relative;
     background-color: #0079D3;
     border-color: #0079D3;
     color: aliceblue;
-    padding-inline: 37.5px;
+    padding-inline: 30px;
 }
 /* Log in button */
 .btnL{
@@ -84,7 +84,7 @@ position:relative;
     font-size: 12px;
     font-weight: 700;
     position:relative;
-    left: 159px;
+    left: 130px;
   color: rgba(108, 88, 179, 0.75);
   letter-spacing: 1px;
   line-height: -5px;
@@ -92,7 +92,7 @@ position:relative;
   border-radius: 35px;
   background: transparent;
   transition: all 0.3s ease 0s;
-  padding-inline: 37.5px;
+  padding-inline: 30px;
     background-color: #ffffff;
     border-color: #0079D3;
     color: rgb(0, 136, 255)
@@ -127,6 +127,7 @@ position:relative;
     font-size: 12px;
     font: normal small verdana, arial, helvetica, sans-serif;
     text-transform: none;    
+    
 }
 .moreStuff{
     font-size: 7px;
