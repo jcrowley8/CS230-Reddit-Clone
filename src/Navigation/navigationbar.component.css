@@ -119,17 +119,19 @@ position:relative;
     left: 70px;
 }
 .viewOptions{
-    font-size: 8px;
-    opacity: .75; 
+    font-size: 7px;
+    opacity: .75;
+    margin-left: -7px;
 }
 .darkMode{
     font-size: 12px;
     font: normal small verdana, arial, helvetica, sans-serif;
-    text-transform: none;
+    text-transform: none;    
 }
 .moreStuff{
-    font-size: 8px;
-    opacity: .75; 
+    font-size: 7px;
+    opacity: .75;
+    margin-left: -7px;
 }
 .coins{
     font-size: 12px;
@@ -166,7 +168,7 @@ position:relative;
     text-transform: none;
 }
 .ZeroCoins{
-    font-size: 8px;
+    font-size: 7px;
     padding-inline: 15px;
     font: normal xx-small verdana, arial, helvetica, sans-serif;
     text-transform: none;
