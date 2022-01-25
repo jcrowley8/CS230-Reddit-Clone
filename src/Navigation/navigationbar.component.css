@@ -125,8 +125,9 @@ position:relative;
 }
 .darkMode{
     font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
+    margin-left: -5px;
     
     
 }
@@ -137,53 +138,77 @@ position:relative;
 }
 .coins{
     font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
 }
 
 .Premium{
     font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
 }
 
 .powerUps{
     font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
 }
 
 .Talk{
     font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
 }
 
 .Predictions{
     font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font: bold small verdana, arial, helvetica, sans-serif;
+    margin-left: -2px;
     text-transform: none;
 }
 .helpCenter{
     font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
 }
 .ZeroCoins{
     font-size: 7px;
-    padding-inline: 15px;
-    font: normal xx-small verdana, arial, helvetica, sans-serif;
+    margin-left: 8px;
+    padding-inline: 10px;
+    font: bold xx-small verdana, arial, helvetica, sans-serif;
     text-transform: none;
     opacity: .75; 
     
 }
 .bi-moon-fill{
-    padding-inline: 0px;
+    margin-left: 10px;
 
 }
-
 .logInSignUp{
-    font-size: 12px;
-    font: normal small verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
+    
+    
+}
+.bi-coin{
+    margin-left: 5px;
+}
+.bi-shield-plus{
+    margin-left: 5px;
+}
+.bi-lightning{
+    margin-left: 5px;
+}
+.bi-record-circle{
+    margin-left: 5px;
+}
+.bi-question-circle{
+    margin-left: 5px;
+}
+.bi-box-arrow-in-right{
+    margin-left: 5px;
+}
+.bi-crystal{
+    margin-left: 2px;
 }
