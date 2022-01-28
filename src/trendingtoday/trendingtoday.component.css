@@ -4,3 +4,34 @@
     font: normal small verdana, arial, helvetica, sans-serif;
     /* 858x224 */
 }
+.card-boxes{
+    height: 208px; 
+    width: 1020px;
+}
+.card-trending{
+    height: 28px;
+    width: 1020px;
+}
+.card-img{
+    height: 200px;
+    width: 400px;
+}
+.card-img-logo{
+    height: 15px;
+    width: 15px;
+    font-size: 6px;
+}
+.card{
+    height: 30px;
+    border-radius: 20%;
+    padding-left: 10%;
+}
+.card-title{
+    font-size: 16px;
+}
+.card-text{
+    font-size: 14px;
+}
+.darkMode{
+    margin-top: 15px;
+}
