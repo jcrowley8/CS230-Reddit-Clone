@@ -12,3 +12,43 @@
     height: 30px;
     
 }
+.card-img-caret{
+    width: 25px;
+    height: 15px;
+    padding-right: 8px;
+}
+.btn{
+font-size: 12px;
+font-weight: 700;
+position:relative;
+    left: 60px;
+  color: rgba(108, 88, 179, 0.75);
+  letter-spacing: 1px;
+  line-height: 10px;
+  border: 1.25px solid rgba(108, 89, 179, 0.75);
+  border-radius: 35px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+    background-color: #0079D3;
+    border-color: #0079D3;
+    color: aliceblue;
+}
+.card-img-bg{
+    width: 312px;
+    height: 45px;
+}
+.btn-view-all{
+    font-size: 12px;
+font-weight: 700;
+text-align: center;
+  color: rgba(108, 88, 179, 0.75);
+  letter-spacing: 1px;
+  line-height: 25px;
+  border: 1.25px solid rgba(108, 89, 179, 0.75);
+  border-radius: 35px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+    background-color: #0079D3;
+    border-color: #0079D3;
+    color: aliceblue;
+}
