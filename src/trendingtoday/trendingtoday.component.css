@@ -4,34 +4,27 @@
     font: normal small verdana, arial, helvetica, sans-serif;
     /* 858x224 */
 }
-.card-boxes{
-    height: 208px; 
-    width: 1020px;
-}
-.card-trending{
-    height: 28px;
-    width: 1020px;
-}
-.card-img{
-    height: 200px;
-    width: 400px;
-}
 .card-img-logo{
-    height: 15px;
-    width: 15px;
-    font-size: 6px;
-}
-.card{
-    height: 30px;
-    border-radius: 20%;
-    padding-left: 10%;
-}
-.card-title{
-    font-size: 16px;
+    width: 14px;
+    height: 14px;
 }
 .card-text{
-    font-size: 14px;
+    font-size: 12px;
 }
-.darkMode{
-    margin-top: 15px;
+.card-title{
+    margin-top: 35px;
+}
+.card-group{
+    width: 998px;
+    height: 178px;
+    margin: 11.5px;
+    margin-left: 200px;
+}
+.card-img{
+    opacity: .5;
+}
+.card-boxes{
+    background-color: aqua;
+    width: 1425px;
+    height: 224px;
 }
