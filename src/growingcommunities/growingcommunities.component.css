@@ -18,6 +18,8 @@
     padding-right: 8px;
 }
 .btn{
+    width: 55px;
+    height: 24;
 font-size: 12px;
 font-weight: 700;
 position:relative;
@@ -38,6 +40,9 @@ position:relative;
     height: 45px;
 }
 .btn-view-all{
+    width: 254px;
+    height: 24px;
+    margin-left: 30px;
     font-size: 12px;
 font-weight: 700;
 text-align: center;
@@ -51,4 +56,15 @@ text-align: center;
     background-color: #0079D3;
     border-color: #0079D3;
     color: aliceblue;
+}
+.card-title{
+    width: 195px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 1;
+}
+.card-img-bg{
+    height: 80px;
+    width: 310;
 }
