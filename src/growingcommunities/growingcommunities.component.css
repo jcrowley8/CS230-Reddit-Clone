@@ -1,13 +1,14 @@
 .list-group{
     width: 312px;
-    height: 433px;
+    height: 431px;
     margin-left: 887px;
+
 }
 .card-img-logo{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
     margin-left: 30px;
+    border-radius: 50%;
 }
 .card-text{
     width: 312px;
@@ -35,21 +36,29 @@ position:absolute;
 .card-img-bg{
     width: 312px;
     height: 45px;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.8) 0,rgb(0,121,211));
+    content: "";
+    
+
+    
 }
 .btn-view-all{
-    width: 254px;
-    height: 24px;
-    margin-left: 30px;
+    width: 286px;
+    height: 32px;
+    text-decoration: none;
+    outline: none;
+    margin-left: 12px;
+    margin-top: 10px;
     font-size: 12px;
-font-weight: 700;
-text-align: center;
-  color: rgba(108, 88, 179, 0.75);
-  letter-spacing: 1px;
-  line-height: 25px;
-  border: 1.25px solid rgba(108, 89, 179, 0.75);
-  border-radius: 35px;
-  background: transparent;
-  transition: all 0.3s ease 0s;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(108, 88, 179, 0.75);
+    letter-spacing: 1px;
+    line-height: 25px;
+    border: 1.25px solid rgba(108, 89, 179, 0.75);
+    border-radius: 35px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
     background-color: #0079D3;
     border-color: #0079D3;
     color: aliceblue;
@@ -60,11 +69,60 @@ text-align: center;
     position: absolute;
     bottom: 0;
     left: 1;
-    font-family: 'IBM Plex Sans, Arial, sans-serif';
-    font-weight: 400;
+    font-family: IBM Plex Sans, Arial, sans-serif;
+    font-weight: 600;
+    font-style: bold;
     color: white;
+    text-decoration: none;
+    outline: none;
 }
 .card-img-bg{
     height: 80px;
     width: 310;
+}
+
+.btn1{
+    
+    width: 39px;
+    height: 26px;
+    background-color: rgb(246,247,248);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
+}
+.btn2{
+    width: 47px;
+    height: 26px;
+    background-color: rgb(246,247,248);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
+}
+.btn3{
+    width: 56px;
+    height: 26px;
+    background-color: rgb(246,247,248);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
+}
+.btn4{
+    width: 51px;
+    height: 26px;
+    background-color: rgb(246,247,248);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
 }

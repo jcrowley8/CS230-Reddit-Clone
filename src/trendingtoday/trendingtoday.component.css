@@ -12,14 +12,15 @@
 .card-text{
     font-size: 12px;
 }
+
 .card-title{
     margin-top: 50px;
 }
 .card-group{
     width: 998px;
     height: 178px;
-    margin: 11.5px;
-    margin-left: 200px;
+    margin: 12.5px;
+    margin-left: 210px;
 }
 .card-img{
     width: 100%;
