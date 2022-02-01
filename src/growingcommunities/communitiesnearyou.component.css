@@ -123,3 +123,7 @@ position:absolute;
     border-radius: 30%;
     border: rgb(246,247,248);
 }
+.card{
+    width: 312px;
+    height: 112px;
+}
