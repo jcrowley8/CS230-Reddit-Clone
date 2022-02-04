@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { mock_trendingtoday_list } from 'src/trendingtoday/mock_trendingtoday_list';
+import { TrendingTodayModel } from 'src/trendingtoday/trendingtoday_model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'reddit-website';
+  trendingtoday: TrendingTodayModel [] = [];
+
+  constructor(){
+    for (var trending of mock_trendingtoday_list){
+      console.log(trending);
+      this.trendingtoday.push(trending);
+    }
+  }
 }
