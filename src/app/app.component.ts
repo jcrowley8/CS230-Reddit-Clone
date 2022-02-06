@@ -9,12 +9,5 @@ import { TrendingTodayModel } from 'src/trendingtoday/trendingtoday_model';
 })
 export class AppComponent {
   title = 'reddit-website';
-  trendingtoday: TrendingTodayModel [] = [];
-
-  constructor(){
-    for (var trending of mock_trendingtoday_list){
-      console.log(trending);
-      this.trendingtoday.push(trending);
-    }
-  }
+  
 }

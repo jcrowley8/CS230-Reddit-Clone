@@ -1,0 +1,10 @@
+<div class="trendingText">
+    Trending Today
+</div>
+<div class="d-flex">
+<div *ngFor = "let trending of trendingtoday">
+<reddit-trendingtoday img={{trending.img}} title={{trending.title}} maintext={{trending.maintext}} logo={{trending.logo}} subreddit={{trending.subreddit}}>
+    
+</reddit-trendingtoday>
+</div>
+</div>
