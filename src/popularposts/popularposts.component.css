@@ -1,0 +1,54 @@
+.popular-text{
+    font: normal small verdana, arial, helvetica, sans-serif;
+    margin-left: 230px;
+}
+.card{
+    width: 640px;
+    height: 61px;
+    margin-left: 230px;
+}
+.btn1{
+    width: 69px;
+    height: 32px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
+}
+.btn2{
+    
+    width: 132px;
+    height: 32px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
+}
+.btn3{
+    width: 75px;
+    height: 32px;
+    background-color: rgb(246,247,248);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
+}
+.btn4{
+    width: 69px;
+    height: 32px;
+    background-color: rgb(246,247,248);
+    color: rgb(0, 121, 211);
+    font-weight: bold;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 30%;
+    border: rgb(246,247,248);
+}

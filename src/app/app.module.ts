@@ -8,6 +8,8 @@ import { TrendingTodayLayoutComponent } from 'src/trendingtoday/trendinglayout.c
 import { TrendingTodayComponent } from 'src/trendingtoday/trendingtoday.component';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+import { PopularPostsComponent } from 'src/popularposts/popularposts.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { AppComponent } from './app.component';
     TrendingTodayComponent,
     CommunitiesNearYouComponent,
     TrendingTodayLayoutComponent,
+    PopularPostsComponent,
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
