@@ -214,18 +214,17 @@ position:relative;
     
     
 }
+
 .bi-moon-fill{
     margin-left: 10px;
-
 }
 .logInSignUp{
-    width: 211px;
+    width: 200px;
     height: 38px;
     font-size: 10px;
     font: bold small verdana, arial, helvetica, sans-serif;
     text-transform: none;
-    
-    
+    padding-left: 0;
 }
 .bi-coin{
     margin-left: 5px;
@@ -247,4 +246,13 @@ position:relative;
 }
 .bi-crystal{
     margin-left: 2px;
+}
+.dropdown-menu{
+    width: 213px;
+    height: 378px;
+    margin-left: -40px;
+}
+.bi-toggle-off{
+    position: relative;
+    left: 40px;
 }
