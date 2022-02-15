@@ -14,13 +14,12 @@ Lab 3 CHANGELOG
   •	Changed rounding of cards to better represent rounding of cards on reddit website.
   
 Lab 4 CHANGELOG:
-  •	Added 6 new layout components with simple graphic to dropdown in nav bar
+  •	Added 5 new layout components with simple graphic to dropdown in nav bar
     o	Coins
     o	Premium
     o	Powerups
     o	Talk
     o	Predictions
-    o	Help Center
-  •	Routed 6 layout components from main website page to own separate pages
+  •	Routed 5 layout components from main website page to own separate pages
   •	Moved components from main page to separate route/layout
   • Routed home nav bar to all accessory pages since it stays visible in all website pages
