@@ -1,0 +1,25 @@
+Lab 3 CHANGELOG
+  Main Features:
+  •	Added data binding to 4 cards in my Trending Today section.
+  •	Added mock list for 4 cards with 5 different piece of data for the *ngFor loop
+    o	added main image
+    o	added title
+    o	added main text
+    o	added logo for subreddit
+    o	added subreddit
+  •	used *ngFor loop to loop through data for 4 different cards.
+  •	Implemented model.ts class for the cards
+  •	Implemented d-flex into trendinglayout.component.html in order for the cards to loop horizontally instead of vertically.
+  •	Changed CSS values in trendingtoday.component.css so the cards look and feel as close to website as possible
+  •	Changed rounding of cards to better represent rounding of cards on reddit website.
+  
+Lab 4 CHANGELOG:
+  •	Added 5 new layout components with simple graphic to dropdown in nav bar
+    o	Coins
+    o	Premium
+    o	Powerups
+    o	Talk
+    o	Predictions
+  •	Routed 5 layout components from main website page to own separate pages
+  •	Moved components from main page to separate route/layout
+  • Routed home nav bar to all accessory pages since it stays visible in all website pages
