@@ -967,13 +967,14 @@
     font-style: normal;
     font-variant-caps: normal;
     font-weight: normal;
-    height: 197px;
+    height: 250px;
     line-height: 21px;
     padding-bottom: 32px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 48px;
-    width: 1400px;
+    margin-top: 70px;
+    width: 1440px;
 }
 
 .contentBox {
@@ -1405,14 +1406,14 @@
     line-height: 18px;
     list-style-position: outside;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: -10px;
     padding-right: 10px;
     padding-top: 10px;
     text-align: left;
     text-decoration: none;
     text-transform: capitalize;
     vertical-align: top;
-    width: 82.421875px;
+    width: 200px;
 }
 
 .redditPremiumText {
@@ -1435,14 +1436,14 @@
     line-height: 18px;
     list-style-position: outside;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: -40px;
     padding-right: 10px;
     padding-top: 10px;
     text-align: left;
     text-decoration: none;
     text-transform: capitalize;
     vertical-align: top;
-    width: 106.453125px;
+    width: 200px;
 }
 
 .fourthContent {
