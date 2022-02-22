@@ -35,4 +35,4 @@ Lab 05 CHANGELOG
     	Premium Join Reddit
     	Premium Reddit Footer
 •	Used ngFor loop for coins page awards. Could not figure out how to get them to print horizontally without printing the same images 3 times. 
-  Tried d-flex like I did with the first implementation of ngFor to fix this problem, but it didn’t work. It would only print the first implementation. 
+  Tried d-flex like I did with the first implementation of ngFor to fix this problem, but it didn’t work. It would only print the first card. 
