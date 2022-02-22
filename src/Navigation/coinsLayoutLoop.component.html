@@ -16,29 +16,16 @@
     </div>
 </div>
 <div class="container">
-    <h2 class="main">Here's what you can buy with coins
-    </h2>
+    <h2 class="main">Here's what you can buy with coins</h2>
     <p class="subtext">
         Spend your coins on these Awards reserved exclusively for the finest Reddit contributors. 
         Awarding a post or comment highlights it for all to see, and some Awards also grant the honoree special bonuses.
     </p>
-    <div class="container-sub">
-        <div class="card-silver">
-            <img src="/assets/award-silver-large.png" width="96px" height="96px">
-            <h3 class="silver-text">Silver Award</h3>
-            <p class="silver-subtext">Shows a Silver Award on the post or comment and ... that's it. You'll need 100 coins</p>
+    
+        <div *ngFor = "let coins of coinsLayout">
+            <reddit-coinsLayout img = {{coins.img}} title = {{coins.title}} subtext = {{coins.subtext}}>
 
-        </div>
-        <div class="card-gold">
-            <img src="/assets/award-gold-large.png" width="96px" height="96px">
-            <h3 class="silver-text">Gold Award</h3>
-            <p class="silver-subtext">Gives 100 Reddit Coins and a week of r/lounge access and ad-free browsing. You'll need 500 coins.</p>
-            
-        </div>
-        <div class="card-plat">
-            <img src="/assets/award-platinum-large.png" width="96px" height="96px">
-            <h3 class="silver-text">Platinum Award</h3>
-            <p class="silver-subtext">Gives a month of r/lounge access and ad-free browsing, and 700 Reddit Coins for that month. You'll need 1800 coins.</p>
-        </div>
+            </reddit-coinsLayout>  
     </div>
+
 </div>

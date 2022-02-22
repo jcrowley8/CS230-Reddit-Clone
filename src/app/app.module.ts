@@ -10,8 +10,10 @@ import { TrendingTodayComponent } from 'src/trendingtoday/trendingtoday.componen
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PopularPostsComponent } from 'src/popularposts/popularposts.component';
-import { CoinsLayoutComponent } from 'src/Navigation/coins-layout.component';
+import { CoinsLayoutComponent } from 'src/Navigation/coinsLayout.component';
 import { HomeLayoutComponent } from 'src/trendingtoday/home-layout.component';
+import { CoinsLayoutLoopComponent } from 'src/Navigation/coinsLayoutLoop.component';
+
 
 @NgModule({
   declarations: [
@@ -22,8 +24,9 @@ import { HomeLayoutComponent } from 'src/trendingtoday/home-layout.component';
     CommunitiesNearYouComponent,
     TrendingTodayLayoutComponent,
     PopularPostsComponent,
-    CoinsLayoutComponent,
     HomeLayoutComponent,
+    CoinsLayoutComponent,
+    CoinsLayoutLoopComponent,
     
   ],
   imports: [
