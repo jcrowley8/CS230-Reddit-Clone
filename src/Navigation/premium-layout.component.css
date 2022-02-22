@@ -1,110 +1,38 @@
-.container{
-    -webkit-font-smoothing: antialiased;
-border-bottom-color: rgb(255, 255, 255);
-border-bottom-style: none;
-border-bottom-width: 0px;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(255, 255, 255);
-border-left-style: none;
-border-left-width: 0px;
-border-right-color: rgb(255, 255, 255);
-border-right-style: none;
-border-right-width: 0px;
-border-top-color: rgb(255, 255, 255);
-border-top-style: none;
-border-top-width: 0px;
-color: rgb(255, 255, 255);
-display: block;
-font-family: IBMPlexSans, Arial, sans-serif;
-font-size: 16px;
-font-stretch: normal;
-font-style: normal;
-font-variant-caps: normal;
-font-weight: normal;
-height: 255px;
-line-height: 16px;
-margin-bottom: 0px;
-margin-left: 108px;
-margin-right: 108px;
-margin-top: 0px;
-max-width: 1440px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-
-width: 1224px;
-}
-.premiumText{
-    -webkit-font-smoothing: antialiased;
-border-bottom-color: rgb(255, 255, 255);
-border-bottom-style: none;
-border-bottom-width: 0px;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(255, 255, 255);
-border-left-style: none;
-border-left-width: 0px;
-border-right-color: rgb(255, 255, 255);
-border-right-style: none;
-border-right-width: 0px;
-border-top-color: rgb(255, 255, 255);
-border-top-style: none;
-border-top-width: 0px;
-color: rgb(255, 255, 255);
-display: block;
-font-family: IBMPlexSans, Arial, sans-serif;
-font-size: 16px;
-font-stretch: normal;
-font-style: normal;
-font-variant-caps: normal;
-font-weight: normal;
-height: 87px;
-line-height: 16px;
-margin-block-end: 12px;
-margin-block-start: 0px;
-margin-bottom: 12px;
-margin-inline-end: 0px;
-margin-inline-start: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: -400px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-width: 1224px;
-}
-.premiumSubtext{
-    -webkit-font-smoothing: antialiased;
-    border-bottom-color: rgb(255, 255, 255);
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(255, 255, 255);
-    border-left-style: none;
-    border-left-width: 0px;
-    border-right-color: rgb(255, 255, 255);
-    border-right-style: none;
-    border-right-width: 0px;
-    border-top-color: rgb(255, 255, 255);
-    border-top-style: none;
-    border-top-width: 0px;
+.container {
     color: rgb(255, 255, 255);
     display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 255px;
+    line-height: 16px;
+    margin-left: 108px;
+    margin-right: 108px;
+    max-width: 1440px;
+    width: 1224px;
+}
+
+.premiumText {
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 87px;
+    line-height: 16px;
+    margin-block-end: 12px;
+    margin-bottom: 12px;
+    margin-top: -400px;
+    width: 550px;
+}
+
+.premiumSubtext {
     font-family: "Noto Sans", sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     font-stretch: normal;
     font-style: normal;
     font-variant-caps: normal;
@@ -112,132 +40,83 @@ width: 1224px;
     height: 56px;
     line-height: 28px;
     margin-block-end: 24px;
-    margin-block-start: 0px;
     margin-bottom: 24px;
-    margin-inline-end: 0px;
-    margin-inline-start: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
     max-width: 560px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-   
     width: 560px;
 }
-.containerButton{
-    -webkit-font-smoothing: antialiased;
-border-bottom-color: rgb(255, 255, 255);
-border-bottom-style: none;
-border-bottom-width: 0px;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(255, 255, 255);
-border-left-style: none;
-border-left-width: 0px;
-border-right-color: rgb(255, 255, 255);
-border-right-style: none;
-border-right-width: 0px;
-border-top-color: rgb(255, 255, 255);
-border-top-style: none;
-border-top-width: 0px;
-color: rgb(255, 255, 255);
-display: block;
-font-family: IBMPlexSans, Arial, sans-serif;
-font-size: 16px;
-font-stretch: normal;
-font-style: normal;
-font-variant-caps: normal;
-font-weight: normal;
-height: 76px;
-line-height: 16px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-text-align: left;
 
-width: 1224px;
+.containerButton {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 76px;
+    line-height: 16px;
+    text-align: left;
+    width: 1224px;
 }
-.monthly{
-    -webkit-appearance: none;
--webkit-font-smoothing: antialiased;
-align-items: center;
-background-attachment: scroll;
-background-clip: border-box;
-background-color: rgba(0, 0, 0, 0);
-background-image: none;
-background-origin: padding-box;
-background-position-x: 0%;
-background-position-y: 0%;
-background-size: auto;
-border-bottom-color: rgb(255, 255, 255);
-border-bottom-left-radius: 9999px;
-border-bottom-right-radius: 9999px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(255, 255, 255);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: rgb(255, 255, 255);
-border-right-style: solid;
-border-right-width: 1px;
-border-top-color: rgb(255, 255, 255);
-border-top-left-radius: 9999px;
-border-top-right-radius: 9999px;
-border-top-style: solid;
-border-top-width: 1px;
-box-sizing: border-box;
-color: rgb(255, 255, 255);
-cursor: pointer;
-display: inline-block;
-fill: rgb(0, 121, 211);
-font-family: "Noto Sans", Arial, sans-serif;
-font-size: 14px;
-font-stretch: normal;
-font-style: normal;
-font-variant-caps: normal;
-font-weight: bold;
-height: 42px;
-justify-content: center;
-letter-spacing: normal;
-line-height: 18px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-max-width: 360px;
-min-height: 32px;
-min-width: 256px;
-padding-bottom: 4px;
-padding-left: 16px;
-padding-right: 16px;
-padding-top: 4px;
-position: relative;
-text-align: center;
-text-indent: 0px;
-text-shadow: none;
-text-transform: none;
-vertical-align: baseline;
-width: 256px;
-word-spacing: 0px;
-writing-mode: horizontal-tb;
+
+.monthly {
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    fill: rgb(0, 121, 211);
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: bold;
+    height: 42px;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 18px;
+    max-width: 360px;
+    min-height: 32px;
+    min-width: 256px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    position: relative;
+    text-align: center;
+    vertical-align: baseline;
+    width: 256px;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
 }
-.yearly{
+
+.yearly {
     -webkit-appearance: none;
     -webkit-font-smoothing: antialiased;
     align-items: center;
@@ -306,39 +185,22 @@ writing-mode: horizontal-tb;
     word-spacing: 0px;
     writing-mode: horizontal-tb;
 }
-.save30{
-    -webkit-font-smoothing: antialiased;
+
+.save30 {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgb(255, 255, 255);
-    background-image: none;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
     background-size: auto;
     border-bottom-color: rgb(255, 69, 0);
     border-bottom-left-radius: 999px;
     border-bottom-right-radius: 999px;
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0;
     border-image-repeat: stretch;
     border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(255, 69, 0);
-    border-left-style: none;
-    border-left-width: 0px;
-    border-right-color: rgb(255, 69, 0);
-    border-right-style: none;
-    border-right-width: 0px;
-    border-top-color: rgb(255, 69, 0);
+    border-image-width: 2;
     border-top-left-radius: 999px;
     border-top-right-radius: 999px;
-    border-top-style: none;
-    border-top-width: 0px;
     color: rgb(255, 69, 0);
-    cursor: pointer;
     display: inline-block;
     fill: rgb(255, 255, 255);
     font-family: "Noto Sans", Arial, sans-serif;
@@ -350,61 +212,1538 @@ writing-mode: horizontal-tb;
     height: 16px;
     letter-spacing: normal;
     line-height: 16px;
-    margin-bottom: 0px;
     margin-left: 4px;
-    margin-right: 0px;
-    margin-top: 0px;
     padding-bottom: 4px;
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 4px;
     text-align: center;
+    vertical-align: middle;
+    width: 55.453125px;
+    writing-mode: horizontal-tb;
+}
+
+.subscription {
+    color: rgb(211, 214, 218);
+    display: block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 115px;
+    margin-top: -25px;
+    width: 1224px;
+}
+
+.header {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 32px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 600;
+    height: 32px;
+    line-height: 32px;
+    margin-block-end: 28px;
+    margin-block-start: 0px;
+    margin-bottom: 28px;
+    text-align: center;
+    width: 430.765625px;
+}
+
+.joinReddit {
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 556px;
+    line-height: 16px;
+    margin-top: 140px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    vertical-align: baseline;
+    width: 1440px;
+}
+
+.cardLayout {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 300px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    max-width: 800px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+    text-align: center;
+    width: 800px;
+}
+
+.cardBorder {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 300px;
+    justify-content: space-between;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: baseline;
+    width: 768px;
+}
+
+.adFreeLogo {
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-ad-free.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.adFreeTitle {
+    -webkit-font-smoothing: antialiased;
+    border-bottom-color: rgb(28, 28, 28);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(28, 28, 28);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(28, 28, 28);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(28, 28, 28);
+    border-top-style: none;
+    border-top-width: 0px;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-block-start: 0px;
+    margin-bottom: 4px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+    width: 111.828125px;
+}
+
+
+.new {
+    -webkit-font-smoothing: antialiased;
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 69, 0);
+    background-origin: padding-box;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: bold;
+    height: 20px;
+    justify-content: center;
+    left: 12px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    vertical-align: baseline;
+    width: 37px;
+}
+
+.exclusiveLogo {
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-avatars.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.exclusiveTitle {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 139.328125px;
+}
+
+.cardSubtext {
+    -webkit-font-smoothing: antialiased;
+    border-bottom-color: rgb(135, 138, 140);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(135, 138, 140);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(135, 138, 140);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(135, 138, 140);
+    border-top-style: none;
+    border-top-width: 0px;
+    color: rgb(135, 138, 140);
+    display: block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 36px;
+    line-height: 18px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    text-align: center;
+    width: 164px;
+}
+
+.monthlyCoinsLogo {
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-monthly-coins.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.monthlyCoinsTitle {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 119.046875px;
+}
+
+.cardBG {
+    -webkit-font-smoothing: antialiased;
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(246, 247, 248);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom-color: rgb(28, 28, 28);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(28, 28, 28);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(28, 28, 28);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(28, 28, 28);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 134px;
+    justify-content: center;
+    line-height: 16px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    min-height: 128px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    position: relative;
+    text-align: center;
+    vertical-align: baseline;
+    width: 180px;
+}
+
+.membersLogo {
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-lounge.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.membersTitle {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 109.578125px;
+}
+
+
+.customIconsLogo {
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-app-icons.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.customIconsTitle {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 124.375px;
+}
+
+
+.powerupsLogo {
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-powerups.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    border-bottom-color: rgb(28, 28, 28);
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.powerupsTitle {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 70.921875px;
+}
+
+
+.premiumAwardsLogo {
+    -webkit-font-smoothing: antialiased;
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-awards.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    border-bottom-color: rgb(28, 28, 28);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.premiumAwardsTitle {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-block-start: 0px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 109.84375px;
+}
+
+
+.coinBonusLogo {
+    background-image: url("https://www.redditstatic.com/desktop2x/img/gold/premium-marketing/benefits-icons/premium-bonus.png");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 48px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 58px;
+    margin-right: 58px;
+    text-align: center;
+    width: 48px;
+}
+
+.coinBonusTitle {
+    color: rgb(28, 28, 28);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin-block-end: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 124.515625px;
+}
+
+.buttonBorder {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: IBMPlexSans, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 72px;
+    line-height: 16px;
+    width: 522px;
+}
+
+.monthlyCard {
+    align-items: center;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom-color: rgb(255, 69, 0);
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 69, 0);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(255, 69, 0);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(255, 69, 0);
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(255, 69, 0);
+    cursor: pointer;
+    display: inline-block;
+    fill: rgb(0, 121, 211);
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: bold;
+    height: 42px;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 18px;
+    max-width: 360px;
+    min-height: 32px;
+    min-width: 256px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    position: relative;
+    text-align: center;
     text-indent: 0px;
     text-shadow: none;
     text-transform: none;
-    vertical-align: middle;
-    width: 55.453125px;
+    vertical-align: baseline;
+    width: 256px;
     word-spacing: 0px;
     writing-mode: horizontal-tb;
 }
-.subscription{
-    -webkit-font-smoothing: antialiased;
-border-bottom-color: rgb(211, 214, 218);
-border-bottom-style: none;
-border-bottom-width: 0px;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(211, 214, 218);
-border-left-style: none;
-border-left-width: 0px;
-border-right-color: rgb(211, 214, 218);
-border-right-style: none;
-border-right-width: 0px;
-border-top-color: rgb(211, 214, 218);
-border-top-style: none;
-border-top-width: 0px;
-color: rgb(211, 214, 218);
-display: block;
-font-family: "Noto Sans", Arial, sans-serif;
-font-size: 12px;
-font-stretch: normal;
-font-style: normal;
-font-variant-caps: normal;
-font-weight: normal;
-height: 18px;
-line-height: 18px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 16px;
-padding-bottom: 0px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 0px;
-text-align: left;
 
-width: 1224px;
+.subscriptionCard {
+    color: rgb(124, 124, 124);
+    display: block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 12px;
+    text-align: center;
+    width: 522px;
+}
+
+.powerupsText {
+    color: rgb(124, 124, 124);
+    display: block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 36px;
+    line-height: 18px;
+    margin-bottom: 24px;
+    margin-top: 12px;
+    text-align: center;
+    width: 522px;
+}
+
+.redditFAQ {
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    display: flex;
+    fill: rgb(0, 121, 211);
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: bold;
+    height: 32px;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 17px;
+    margin-bottom: 0px;
+    margin-left: 596.3125px;
+    margin-right: 596.3125px;
+    margin-top: 0px;
+    min-height: 32px;
+    min-width: 32px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    vertical-align: baseline;
+    width: 247.375px;
+}
+
+.premiumFooter {
+    background-clip: border-box;
+    background-color: rgb(12, 55, 68);
+    background-image: none;
+    background-origin: padding-box;
+    background-size: auto;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 197px;
+    line-height: 21px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 48px;
+    width: 1400px;
+}
+
+.contentBox {
+    background-clip: border-box;
+    background-color: rgb(12, 55, 68);
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 197px;
+    line-height: 21px;
+    margin-left: 315px;
+    margin-right: 315px;
+    max-width: 770px;
+    width: 770px;
+}
+
+.subContentBox {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    margin-bottom: 44px;
+    vertical-align: baseline;
+    width: 770px;
+}
+
+.firstContent {
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    text-align: center;
+    width: 170.828125px;
+}
+
+.firstContentSmall {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: left;
+    vertical-align: middle;
+    width: 90.484375px;
+}
+
+.Border {
+    color: rgb(0, 0, 0);
+    display: list-item;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 38px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-align: left;
+    vertical-align: baseline;
+    width: 70.484375px;
+}
+
+.aboutText {
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 39.734375px;
+}
+
+.careersText {
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 50.484375px;
+}
+
+.pressText {
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 35.28125px;
+}
+
+.secondContent {
+    border-bottom-color: rgb(0, 0, 0);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    text-align: center;
+    width: 181.96875px;
+}
+
+.secondContentSmall {
+    border-bottom-color: rgb(0, 0, 0);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: left;
+    vertical-align: middle;
+    width: 101.625px;
+}
+
+.secondBorder {
+    border-bottom-color: rgb(0, 0, 0);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    color: rgb(0, 0, 0);
+    display: list-item;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 38px;
+    line-height: 21px;
+    list-style-position: outside;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-align: left;
+    vertical-align: baseline;
+    width: 81.625px;
+}
+
+.advertiseText {
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    list-style-position: outside;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 61.625px;
+}
+
+.blogText {
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    list-style-position: outside;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 29.796875px;
+}
+
+.helpText {
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 18px;
+    line-height: 18px;
+    list-style-position: outside;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 30.5px;
+}
+
+.thirdContent {
+    border-image-width: 1;
+    border-left-color: rgba(255, 255, 255, 0.25);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(255, 255, 255, 0.25);
+    border-right-style: solid;
+    border-right-width: 0px;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    text-align: center;
+    width: 226.796875px;
+}
+
+.thirdContentSmall {
+    border-bottom-color: rgb(0, 0, 0);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 88px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: left;
+    vertical-align: middle;
+    width: 146.453125px;
+}
+
+.thirdBorder {
+    border-bottom-color: rgb(0, 0, 0);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: list-item;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 38px;
+    line-height: 21px;
+    list-style-position: outside;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-align: left;
+    vertical-align: baseline;
+    width: 126.453125px;
+}
+
+.coinsText {
+    border-bottom-color: rgb(255, 255, 255);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    list-style-position: outside;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 82.421875px;
+}
+
+.redditPremiumText {
+    border-bottom-color: rgb(255, 255, 255);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    list-style-position: outside;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 106.453125px;
+}
+
+.fourthContent {
+    border-image-width: 1;
+    border-left-color: rgba(255, 255, 255, 0.25);
+    border-left-style: solid;
+    border-left-width: 1px;
+    color: rgb(0, 0, 0);
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    text-align: center;
+    width: 188.421875px;
+}
+
+.fourthContentSmall {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 132px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    text-align: left;
+    vertical-align: middle;
+    width: 108.078125px;
+}
+
+.fourthBorder {
+    color: rgb(0, 0, 0);
+    display: list-item;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 38px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-align: left;
+    vertical-align: baseline;
+    width: 88.078125px;
+}
+
+.socialMediaText {
+    color: rgb(255, 255, 255);
+    cursor: auto;
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 68.078125px;
+}
+
+.bottomContent {
+    display: block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    width: 770px;
+}
+
+.contentPolicy {
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    vertical-align: top;
+    width: 94.296875px;
+}
+
+.contentPolicyText {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: auto;
+    display: inline;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+
+.PrivacyPolicy {
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    vertical-align: top;
+    width: 88.359375px;
+}
+
+.PrivacyPolicyText {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: auto;
+    display: inline;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+
+.UserAgreement {
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: top;
+    width: 107.8125px;
+}
+
+.UserAgreementText {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: auto;
+    display: inline;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+
+.ModPolicy {
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    vertical-align: top;
+    width: 71.453125px;
+}
+
+.ModPolicyText {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: auto;
+    display: inline;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: auto;
+}
+
+.RightsReserved {
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    font-family: "Noto Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 21px;
+    line-height: 21px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    vertical-align: top;
+    width: 247.625px;
 }
