@@ -13,6 +13,8 @@ import { PopularPostsComponent } from 'src/popularposts/popularposts.component';
 import { CoinsLayoutComponent } from 'src/Navigation/coinsLayout.component';
 import { HomeLayoutComponent } from 'src/trendingtoday/home-layout.component';
 import { CoinsLayoutLoopComponent } from 'src/Navigation/coinsLayoutLoop.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import {HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -27,11 +29,13 @@ import { CoinsLayoutLoopComponent } from 'src/Navigation/coinsLayoutLoop.compone
     HomeLayoutComponent,
     CoinsLayoutComponent,
     CoinsLayoutLoopComponent,
+    UserInfoComponent,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
