@@ -23,3 +23,16 @@ Lab 4 CHANGELOG:
   •	Routed 5 layout components from main website page to own separate pages
   •	Moved components from main page to separate route/layout
   • Routed home nav bar to all accessory pages since it stays visible in all website pages
+  
+Lab 05 CHANGELOG
+•	Added 6 new components using bootstrap and css
+  o	Coins Page
+    	Coins page header
+    	Coins page subheader
+    	Coins page Awards
+  o	Premium Page
+    	Premium Header
+    	Premium Join Reddit
+    	Premium Reddit Footer
+•	Used ngFor loop for coins page awards. Could not figure out how to get them to print horizontally without printing the same images 3 times. 
+  Tried d-flex like I did with the first implementation of ngFor to fix this problem, but it didn’t work. It would only print the first card. 
