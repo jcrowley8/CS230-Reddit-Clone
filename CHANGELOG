@@ -42,4 +42,13 @@ Lab 06 CHHANGELOG:
   •	Created 1 database heading and 4 entries
   •	Used Angular’s HttpClient to communicate between frontend and backend
   •	Created component on homepage of website to display data obtained from the backend.
+  
+Lab 07 CHANGELOG:
+  •	created “trending.service.ts” file in trendingToday component to store information for those cards in the backend.
+    o	“Neil Young” card
+    o	“Climate” card
+    o	“Sarah Palin” card
+    o	“Amazon” card
+  •	modified “trendinglayout.component.ts” file and added ngOnInIt method to communicate with the backend.
+
 
