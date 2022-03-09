@@ -1,20 +1,20 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { TrendingTodayModel } from "./trendingtoday_model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 
 @Injectable({
     providedIn: 'root'
 })
 export class TrendingService {
-    private baseUrl: string = "https://reddit-6f039-default-rtdb.firebaseio.com/";
-    private trendingEndpoint: string = "trendingToday.json";
-    constructor(private http: HttpClient) {
+    
+    constructor(private db: AngularFireDatabase) {
     }
     public getTrending() {
-        return this.http.get<TrendingTodayModel[]>(this.baseUrl + this.trendingEndpoint);
+        return this.db.list<TrendingTodayModel>("trendingToday").valueChanges();
     }
     public getTrendings(index: number) {
-        return this.http.get<TrendingTodayModel>(this.baseUrl + 'trendingToday/' + index + '.json');
+        
     }
 }

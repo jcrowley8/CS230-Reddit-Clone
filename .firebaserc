@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "reddit-6f039"
+  },
+  "targets": {
+    "reddit-6f039": {
+      "hosting": {
+        "reddit-website": [
+          "reddit-6f039"
+        ]
+      }
+    }
+  }
+}
