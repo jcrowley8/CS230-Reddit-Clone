@@ -51,4 +51,6 @@ Lab 07 CHANGELOG:
     o	“Amazon” card
   •	modified “trendinglayout.component.ts” file and added ngOnInIt method to communicate with the backend.
 
+Lab 08 CHANGELOG:
+  •	Deployed website to the public
 
