@@ -17,7 +17,9 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import {HttpClientModule} from '@angular/common/http';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
-import { provideDatabase,getDatabase } from '@angular/fire/database'
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database'
     CoinsLayoutLoopComponent,
     UserInfoComponent,
     
+    
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database'
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

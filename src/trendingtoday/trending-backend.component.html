@@ -1,0 +1,45 @@
+<div class=container>
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addTrending(postForm.value)">
+
+                <div class="img-group">
+                    <span class = "Input-group-text">
+                        img Path:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="title-group">
+                    <span class = "Input-group-text">
+                        title Path:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="maintext-group">
+                    <span class = "Input-group-text">
+                        maintext Path:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="logo-group">
+                    <span class = "Input-group-text">
+                        logo Path:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="subreddit-group">
+                    <span class = "Input-group-text">
+                        subreddit Path:
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-light">Add Trending Article</button>
+            </form>
+        </div>
+    </div>
+</div>
