@@ -1,44 +1,44 @@
-<div class=container>
+<div class="container">
     <div class="row">
         <div class="col-8">
-            <form #postForm="ngForm" (ngSubmit)="addTrending(postForm.value)">
+            <form #postForm="ngForm" (ngSubmit)="addTrending()"> 
 
-                <div class="img-group">
-                    <span class = "Input-group-text">
-                        img Path:
+                <div class="input-group">
+                    <span class ="input-group-text">
+                        Image Path: 
                     </span>
                     <input type="text" class="form-control">
                 </div>
 
-                <div class="title-group">
-                    <span class = "Input-group-text">
-                        title Path:
+                <div class="input-group">
+                    <span class ="input-group-text">
+                        Logo Path: 
                     </span>
                     <input type="text" class="form-control">
                 </div>
 
-                <div class="maintext-group">
-                    <span class = "Input-group-text">
-                        maintext Path:
+                <div class="input-group">
+                    <span class ="input-group-text">
+                        Main Text: 
                     </span>
                     <input type="text" class="form-control">
                 </div>
 
-                <div class="logo-group">
-                    <span class = "Input-group-text">
-                        logo Path:
+                <div class="input-group">
+                    <span class ="input-group-text">
+                        Subreddit Name: 
                     </span>
                     <input type="text" class="form-control">
                 </div>
 
-                <div class="subreddit-group">
-                    <span class = "Input-group-text">
-                        subreddit Path:
+                <div class="input-group">
+                    <span class ="input-group-text">
+                        Title: 
                     </span>
                     <input type="text" class="form-control">
                 </div>
 
-                <button type="submit" class="btn btn-light">Add Trending Article</button>
+                <button type="Submit" class="btn btn-light">Add Trending Card</button>
             </form>
         </div>
     </div>

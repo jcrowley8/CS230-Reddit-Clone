@@ -8,12 +8,14 @@ import { TalkLayoutComponent } from 'src/Navigation/talk-layout.component';
 import { PredictionsLayoutComponent } from 'src/Navigation/predictions-layout.component';
 import { HelpCenterLayoutComponent } from 'src/Navigation/help-center-layout.component';
 import { CoinsLayoutLoopComponent } from 'src/Navigation/coinsLayoutLoop.component';
+import { TrendingBackendComponent } from 'src/trendingtoday/trending-backend.component';
 
 const routes:Routes = [ 
   {
     path: '', component: HomeLayoutComponent
   },
   {path:'coins', component: CoinsLayoutLoopComponent},
+  {path:'admin', component: TrendingBackendComponent},
   {path:'premium', component: PremiumLayoutComponent},
   {path:'powerups', component: PowerupsLayoutComponent},
   {path:'talk', component: TalkLayoutComponent},
