@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { TrendingService } from "./trending.service";
 import { TrendingTodayModel } from "./trendingtoday_model";
 
 
@@ -8,10 +9,14 @@ import { TrendingTodayModel } from "./trendingtoday_model";
     
 })
 export class TrendingBackendComponent implements OnInit{
-    constructor() {}
+
+    constructor(public ts: TrendingService) {}
+
     ngOnInit(): void { 
     }
-    addTrending(img: TrendingTodayModel){
+    addTrending(trending: TrendingTodayModel){
         console.log("You clicked submit");
+        console.log(trending);
+        this.ts.addTrending(trending);
     }
 }

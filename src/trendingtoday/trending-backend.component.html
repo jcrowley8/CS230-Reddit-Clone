@@ -1,41 +1,41 @@
 <div class="container">
     <div class="row">
         <div class="col-8">
-            <form #postForm="ngForm" (ngSubmit)="addTrending()"> 
+            <form #postForm="ngForm" (ngSubmit)="addTrending(postForm.value)"> 
 
                 <div class="input-group">
                     <span class ="input-group-text">
                         Image Path: 
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="img">
                 </div>
 
                 <div class="input-group">
                     <span class ="input-group-text">
                         Logo Path: 
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="logo">
                 </div>
 
                 <div class="input-group">
                     <span class ="input-group-text">
                         Main Text: 
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="maintext">
                 </div>
 
                 <div class="input-group">
                     <span class ="input-group-text">
                         Subreddit Name: 
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="subreddit">
                 </div>
 
                 <div class="input-group">
                     <span class ="input-group-text">
                         Title: 
                     </span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="title">
                 </div>
 
                 <button type="Submit" class="btn btn-light">Add Trending Card</button>

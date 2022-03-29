@@ -19,6 +19,7 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
+import { TrendingBackendComponent } from 'src/trendingtoday/trending-backend.component';
 
 
 
@@ -35,6 +36,7 @@ import { FormsModule } from '@angular/forms';
     CoinsLayoutComponent,
     CoinsLayoutLoopComponent,
     UserInfoComponent,
+    TrendingBackendComponent,
     
     
   ],

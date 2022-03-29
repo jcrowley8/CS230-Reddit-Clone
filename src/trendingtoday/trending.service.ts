@@ -17,4 +17,8 @@ export class TrendingService {
     public getTrendings(index: number) {
         
     }
+
+    addTrending(trending: TrendingTodayModel){
+        return this.db.list<TrendingTodayModel>("trendingToday").push(trending);
+    }
 }
