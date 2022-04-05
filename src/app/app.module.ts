@@ -20,6 +20,7 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
 import { TrendingBackendComponent } from 'src/trendingtoday/trending-backend.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 
@@ -37,6 +38,7 @@ import { TrendingBackendComponent } from 'src/trendingtoday/trending-backend.com
     CoinsLayoutLoopComponent,
     UserInfoComponent,
     TrendingBackendComponent,
+    AuthenticationComponent,
     
     
   ],

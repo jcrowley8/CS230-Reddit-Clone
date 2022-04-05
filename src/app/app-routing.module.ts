@@ -9,6 +9,7 @@ import { PredictionsLayoutComponent } from 'src/Navigation/predictions-layout.co
 import { HelpCenterLayoutComponent } from 'src/Navigation/help-center-layout.component';
 import { CoinsLayoutLoopComponent } from 'src/Navigation/coinsLayoutLoop.component';
 import { TrendingBackendComponent } from 'src/trendingtoday/trending-backend.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [ 
   {
@@ -16,6 +17,7 @@ const routes:Routes = [
   },
   {path:'coins', component: CoinsLayoutLoopComponent},
   {path:'admin', component: TrendingBackendComponent},
+  {path:'auth', component: AuthenticationComponent},
   {path:'premium', component: PremiumLayoutComponent},
   {path:'powerups', component: PowerupsLayoutComponent},
   {path:'talk', component: TalkLayoutComponent},
