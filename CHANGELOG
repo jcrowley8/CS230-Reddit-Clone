@@ -54,3 +54,9 @@ Lab 07 CHANGELOG:
 Lab 08 CHANGELOG:
   •	Deployed website to the public
 
+Lab 09 CHANGELOG:
+  •	Created form to send data to backend
+  • Created all necessary fields in form to create a completely filled out new card
+  •	Added method to send data to backend
+  •	Implemented new card on main page automatically
+  • New card is added to Trending Today section of website
