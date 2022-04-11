@@ -60,3 +60,10 @@ Lab 09 CHANGELOG:
   •	Added method to send data to backend
   •	Implemented new card on main page automatically
   • New card is added to Trending Today section of website
+
+Lab 10 CHANGELOG:
+  •	Added email and password forms
+  •	Added log in / sign up buttons
+  •	Created email so it can detect valid as well as password over 8 characters
+  •	BONUS
+     o routed my log in / sign up buttons from home screen to authentication page
