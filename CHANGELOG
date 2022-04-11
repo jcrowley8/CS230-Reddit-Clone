@@ -65,5 +65,6 @@ Lab 10 CHANGELOG:
   •	Added email and password forms
   •	Added log in / sign up buttons
   •	Created email so it can detect valid as well as password over 8 characters
+  • Connected authentication to backend to store user entered email and password as a user in database.
   •	BONUS
      o routed my log in / sign up buttons from home screen to authentication page
